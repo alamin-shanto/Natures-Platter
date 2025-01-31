@@ -42,20 +42,24 @@
     <header class="bg-gradient-to-b from-[#FFFFFF] to-[#EFEBE3]">
       <!-- navbar section starts here -->
       <nav class="max-w-[1440px] mx-auto">
-        <div class="navbar bg-base-100 align-middle mt-5">
+        <div class="navbar bg-base-100 align-middle mt-5 justify-between">
           <!-- nav start -->
           <div class="navbar-start">
             <img src="./c2-assets/logo-header.png" alt="" />
           </div>
 
           <!-- dropdown menu -->
-          <div class="dropdown flex-end">
-            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+          <div class="dropdown flex-end relative">
+            <div
+              tabindex="0"
+              role="button"
+              class="btn btn-ghost lg:hidden text-2xl ml-auto"
+            >
               <i class="fa-solid fa-bars"></i>
             </div>
             <ul
               tabindex="0"
-              class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-40 p-2 shadow"
+              class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-40 p-2 shadow right-0 absolute"
             >
               <li><a>Products</a></li>
               <li>
@@ -129,6 +133,7 @@
         <h3 class="font-semibold text-4xl text-accent mb-12 ml-4">Services</h3>
 
         <!-- cards section starts here-->
+
         <div class="lg:flex gap-6 justify-center p-4">
           <!-- card 1 -->
           <div class="card bg-secondary shadow-xl my-6 p-4">
